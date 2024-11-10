@@ -1,0 +1,101 @@
+html{
+    background-color: #f9dee9;
+}
+
+h1 {
+    font-family: DynaPuff;
+    color: #e32f79;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 1px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black
+}
+
+h2 {
+    text-align: center;
+    font-family: DynaPuff;
+    margin-top: 1px;
+}
+
+footer {
+    background-color: #e32f79;
+    text-align: center;
+}
+
+h3,h4,footer {
+    font-family: "Sour Gummy";
+    font-weight: 450;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+}
+
+@media (max-width: 600px)
+{
+    .container {
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+.blog-post {
+    background-color: #ffe5b4;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+/*
+img {
+    display: block;
+    margin: 0 auto;
+}*/
+
+h3 {
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    padding: 5px 0;
+    
+}
+
+a:link {
+    color: rgb(228, 44, 75); /* Unvisited links */
+}
+
+a:visited {
+    color: rgb(169, 9, 63); /* Visited links */
+}
+
+a:hover {
+    color: palevioletred; /* When the mouse hovers over the link */
+}
+
+a:active {
+    color: rgb(169, 9, 63); /* When the link is clicked */
+}
+
+div {
+    display: inline-block;
+}
+
+img{
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    font-family: "Sour Gummy";
+}
